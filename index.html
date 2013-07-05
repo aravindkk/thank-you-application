@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <title>Thank you Coursera!-A new way to express your gratitude to your favorite teachers</title>
+ <meta charset="utf-8" />
+ <meta name="description" content="Thank you coursera- is a way to express your gratitude to coursera teachers who put all their efforts into making fantastic courses." />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+ <meta name="google-site-verification" content="8QXtH6DsEU_lVEkSHvjspSa_KMyLix8NVbQgTzFk72Q" />
+ <link rel="stylesheet" type="text/css" href="normalize.css" />
+ <link rel="stylesheet" type="text/css" href="style.css" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42164566-1', 'herokuapp.com');
+  ga('send', 'pageview');
+</script>
+</head>
+
+<body>
+ <div class="container">
+   <header><a id="selflinker" href="https://twitter.com/#!/search/realtime/%23tcera" target="_blank" title="Click to see what's trending" ><img src="img/new-banner-12.png" alt="Thank you coursera" /></a>
+   </header>
+    <p>
+    <a style="color:#00A1B9;">Thank you coursera </a>let's you thank your favorite teachers on the coursera community.Many teachers put in their painstaking efforts into making wonderful courses.Some of these courses have indeed changed our lives for the better.Why not spare a moment and thank them?
+   </p> 
+   <section>
+     <form>
+         <div id="course">
+           <label for="hashtag">Enter course code</label>
+           <img src="img/ara.png" id="helper" alt="course code is found from course url"/>
+           <input type="text" value="" placeholder="your course code" id="to" title="Please only use letters, numbers or punctuation." pattern="[a-zA-Z0-9,.'!?:;()#-_]+" maxlength="25" required />
+         </div>
+         <div>
+           <label for="message">Type your thank you note</label>
+           <input type="text" value="" placeholder="type in under 80 characters" id="message" title="Please only use letters, numbers or punctuation." pattern="[a-zA-Z0-9 ,.'!?:;()#]+" maxlength="80" required />
+         </div>
+         <div id="submit-container">
+          <button id="submit">Send your thank you note</button>
+         </div>
+     </form>
+   </section>
+   <footer>
+    <p>created by <a href="http://www.twitter.com/aravind030792" target="_blank">aravind</a></p> 
+   </footer>
+ </div>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+ <script src="tweet.js"></script>
+</body>
+</html>
